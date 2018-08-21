@@ -1,0 +1,4 @@
+ssl_certs/cert1.pem
+ssl_certs/chain1.pem
+ssl_certs/fullchain1.pem
+ssl_certs/privkey1.pem

@@ -1,0 +1,11 @@
+version: "3"
+services:
+ poxa:
+  image: edgurgel/poxa-automated
+  env_file: .env
+  ports:
+   - 80:80
+   - 443:443
+  volumes:
+   - ./poxa.conf:/app/poxa/running-config/poxa.conf
+   - ./ssl_certs:/ssl_certs
